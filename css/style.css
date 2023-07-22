@@ -3995,8 +3995,23 @@ select:focus {
 }
 
 
+/* Custom CSS */
 
+.slide-content-box.content-box {
+    background: #2c4ca58c !important;
+   
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+}
 
+.single-service-item .img-holder img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 7px;
+}
 
-
+.service-button{
+    display: table;
+    margin: 0 auto;
+}
 
