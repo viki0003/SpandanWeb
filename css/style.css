@@ -4015,3 +4015,11 @@ select:focus {
     margin: 0 auto;
 }
 
+.single-service-item .img-holder .icon-box .icon img {
+    height: 34px;
+    object-fit: contain;
+}
+
+.single-service-item .img-holder .icon-box {
+    display: none;
+}
