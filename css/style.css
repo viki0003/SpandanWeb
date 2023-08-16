@@ -4153,3 +4153,15 @@ select:focus {
     display: flex;
     align-items: center;
 }
+
+.footer-menu.pull-right {
+    display: none;
+}
+
+.owner-desc p {
+    margin-bottom: 0;
+}
+
+.about-sec-title{
+    padding-bottom: 8px !important;
+}
