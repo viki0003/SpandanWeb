@@ -1255,20 +1255,20 @@ select:focus {
     width: auto;
 }
 
-.about-us-area .right-content{ }
+
 .about-us-area .right-content .single-item {
     border: 1px solid #ebf8ff;
     margin-bottom: 30px;
     border-radius: 3px;
     display: block;
-    padding: 30px 27px 22px;
+    padding: 30px 20px 22px;
 }
-.about-us-area .right-content .single-item .icon-holder{ }
+
 .about-us-area .right-content .single-item .icon-holder span:before {
     font-size: 50px;
     line-height: 50px;
 }
-.about-us-area .right-content .single-item .text{}
+
 .about-us-area .right-content .single-item .text h3 {
     margin: 18px 0 15px;
 }
@@ -4174,4 +4174,20 @@ select:focus {
 .es-main-container > a {
     opacity: 0 !important;
     pointer-events: none !important;
+}
+
+.mainmenu-area .right{
+padding-left: 35px;
+}
+
+
+@media (min-width:768px) {
+    .main-header-menu {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        align-items: center;
+    }
+    
+    
 }

@@ -371,7 +371,7 @@
 =============================================
 ***/ 
 .top-bar-area {
-    padding: 25px 0 20px;
+    padding: 0px 0 20px;
 }
 .language-switcher {
     width: 120px;
@@ -383,7 +383,7 @@
 }
 .top-bar-area .logo {
     display: block;
-    margin: 20px 0;
+    margin: 15px 0 0;
 }
 .top-social-links {
     margin: 0px;
