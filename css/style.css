@@ -4025,9 +4025,9 @@ select:focus {
     object-fit: contain;
 }
 
-/* .single-service-item .img-holder .icon-box {
+.single-service-item .img-holder .icon-box {
     display: none;
-} */
+}
 
 .service-plan.singleServiceProcedures {
     display: none;
