@@ -4180,6 +4180,10 @@ select:focus {
 padding-left: 35px;
 }
 
+sup.rtag {
+    font-size: 13px;
+    top: -1em;
+}
 
 @media (min-width:768px) {
     .main-header-menu {
