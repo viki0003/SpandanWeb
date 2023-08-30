@@ -29,6 +29,7 @@ font-style: normal;
 margin-left: 0px;
 }
 
+.flaticon-money:before { content: "\f11e"; }
 .flaticon-medical-11:before { content: "\f100"; }
 .flaticon-medical-10:before { content: "\f101"; }
 .flaticon-medical-9:before { content: "\f102"; }
