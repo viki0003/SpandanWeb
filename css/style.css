@@ -703,8 +703,8 @@ select:focus {
 .mainmenu-area .right .title-box h3{
     color: #303030;
     font-size: 22px;
-    font-weight: 400;
-    font-family: 'Satisfy', cursive;
+    font-weight: 600;
+    /* font-family: 'Satisfy', cursive; */
 }
 
 
@@ -936,7 +936,7 @@ select:focus {
 .single-service-item{
     position: relative;
     overflow: hidden;
-    margin-bottom: 40px;    
+    margin-bottom: 0px;    
 }
 .single-service-item:hover .overlay-style-one {
     transform: scale(1, 1);
@@ -1258,7 +1258,7 @@ select:focus {
 
 .about-us-area .right-content .single-item {
     border: 1px solid #ebf8ff;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     border-radius: 3px;
     display: block;
     padding: 30px 20px 22px;
