@@ -565,8 +565,8 @@ select:focus {
   top: 6px;
   width: 34px;
   height: 30px;
-  border: 1px solid #ffffff;
-  background: url(../images/icon/submenu-icon.png) center center no-repeat;
+  /* border: 1px solid #ffffff; */
+  background: url(/assets/spandan-images/menu-icon.png) center center no-repeat;
   background-size: 20px;
   cursor: pointer;
   z-index: 5;
