@@ -4185,6 +4185,13 @@ sup.rtag {
     top: -1em;
 }
 
+.smallTag{
+    top: -0.5em !important;
+}
+
+
+
+
 @media (min-width:768px) {
     .main-header-menu {
         display: flex;
