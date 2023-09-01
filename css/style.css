@@ -4206,6 +4206,6 @@ sup.rtag {
 
 @media (max-width:600px) {
     #service-single-area .top-content-box .img-box .single-item .img-holder video {
-        height: 250px;
+        height: 250 px;
     }
 }
