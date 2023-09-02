@@ -674,13 +674,13 @@ select:focus {
     display: block;
     border-left: 1px solid #f0f0f0;
     border-right: 1px solid #f0f0f0;
-    padding: 23px 0;
+    padding: 0;
     padding-left: 60px;
 }
 .mainmenu-area .right .icon-box {
-    position: absolute;
+    /* position: absolute;
     top: 15px;
-    left: -20px;
+    left: -20px; */
     width: 40px;
     height: 40px;
     border: 1px solid #f0f0f0;
@@ -4190,7 +4190,29 @@ sup.rtag {
 }
 
 
+.marqueeMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+span.marqueeText {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-bottom: 7px;
+    font-family: 'Italiana';
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+a.header-call-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}  
+
+/* End */
 
 @media (min-width:768px) {
     .main-header-menu {
