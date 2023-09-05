@@ -4212,6 +4212,14 @@ a.header-call-btn {
     gap: 10px;
 }  
 
+.mainmenu-area .right a {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-area .right ul {
+    display: none;
+}
 /* End */
 
 @media (min-width:768px) {
@@ -4228,6 +4236,14 @@ a.header-call-btn {
 
 @media (max-width:600px) {
     #service-single-area .top-content-box .img-box .single-item .img-holder video {
-        height: 250 px;
+        height: 225px;
+    }
+
+    a.header-call-btn .title-box.call-text-us {
+        display: none;
+    }
+
+    .mainmenu-area .right{
+    left: 50px !important;
     }
 }
