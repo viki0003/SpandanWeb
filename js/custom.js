@@ -54,6 +54,16 @@ function revolutionSliderActiver () {
 }
 
 
+$('#owl-carousel').owlCarousel({
+    loop: true,
+    margin: 30,
+    dots: false,
+    nav: false,
+    items: 1,
+  autoplay:true,
+  autoplayTimeout:8000
+})
+
 
 //====Main menu===
 function mainmenu() {

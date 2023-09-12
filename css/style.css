@@ -1257,7 +1257,7 @@ select:focus {
 
 
 .about-us-area .right-content .single-item {
-    border: 1px solid #ebf8ff;
+    border: 0px solid #ebf8ff;
     margin-bottom: 0px;
     border-radius: 3px;
     display: block;
@@ -4224,6 +4224,28 @@ a.header-call-btn {
 
 .thm-btn {
     background: #ed7f22;
+}
+
+.marquee-main {
+    background: #ed7f22;
+}
+
+.marquee-main .contain {
+    background: #ed7f22;
+}
+
+.marquee-main div#owl-carousel {
+    background: #ed7f22;
+}
+
+.marquee-main div#owl-carousel .owl-stage-outer .owl-item {
+    background: #ed7f22;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Italiana';
+    letter-spacing: 2px;
 }
 /* End */
 

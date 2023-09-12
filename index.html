@@ -9,6 +9,17 @@
     <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- master stylesheet -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
     <!-- Responsive stylesheet -->
     <link rel="stylesheet" href="css/responsive.css" />
@@ -48,7 +59,15 @@
     <![endif]-->
   </head>
   <body>
-    <marquee
+    <div class="marquee-main">
+      <div class="contain">
+        <div id="owl-carousel" class="owl-carousel owl-theme">
+          <div class="item">We make you smile</div>
+          <div class="item">Keep smiling & stay healthy </div>
+        </div>
+      </div>
+    </div>
+    <!-- <marquee
       width="100%"
       direction="left"
       height="40px"
@@ -62,7 +81,7 @@
           >Keep Smiling & Stay Healthy</span
         >
       </div>
-    </marquee>
+    </marquee> -->
     <div class="boxed_wrapper">
       <!--Start Preloader -->
       <div class="preloader"></div>
@@ -79,7 +98,7 @@
                   <img
                     src="/assets/spandan-images/spanadan-logo-R-svg.png"
                     alt="Awesome Logo"
-                    width="200"
+                    width="250"
                   />
                 </a>
               </div>
@@ -179,7 +198,7 @@
                   </div>
                   <div class="icon-box">
                     <img
-                      src="assets/spandan-images/SpandanIcons/tele-call.png"
+                      src="assets/spandan-images/SpandanIcons/telle-call.png"
                       alt=""
                     />
                     <!-- <span class="flaticon-technology-1"></span> -->
@@ -393,10 +412,9 @@
         </div>
       </section>
       <!--End rev slider wrapper-->
-    
 
       <!--Start welcome area-->
-      <section class="about-us-area ">
+      <section class="about-us-area">
         <div class="container">
           <div class="sec-title text-center">
             <h1>Why Choose Spandan<sup class="rtag">®</sup></h1>
@@ -519,23 +537,7 @@
         </div>
       </section>
       <!--End welcome area-->
-      <section class="about-us-area ">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <iframe
-                width="100%"
-                height="500"
-                src="https://www.youtube.com/embed/rWSbm9Gfo3A?si=GGbt_erJSQmR-sJz"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
+  
       <!--Start special services area-->
       <section class="special-services-area">
         <div class="container">
@@ -546,7 +548,7 @@
                   <h1>Spandan<sup class="rtag">®</sup> Services</h1>
                   <span class="border"></span>
                   <div class="text-box">
-                    <h3>Affortable and Quality Dental Care</h3>
+                    <h3>Affordable and Quality Dental Care</h3>
                     <p class="hide">
                       How all this mistaken idea of denouncing pleasure and
                       praising pain was born and I will give you a complete
@@ -867,12 +869,13 @@
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-item">
                       <div class="icon-holder">
-                        <span class="flaticon-social"></span>
+                        <img src="/assets/spandan-images/SpandanIcons/Infection.png" alt="">
+                        <!-- <span class="flaticon-social"></span> -->
                       </div>
                       <div class="text">
-                        <h3>Quality Doctors</h3>
+                        <h3>Infection Control</h3>
                         <p>
-                          Undertakes laborious physically exercise advantage.
+                          We follow standard protocols of sterilization to prevent cross infections
                         </p>
                       </div>
                     </div>
@@ -882,12 +885,13 @@
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-item">
                       <div class="icon-holder">
-                        <span class="flaticon-edit"></span>
+                        <img src="/assets/spandan-images/SpandanIcons/radiation.png" alt="">
+                        <!-- <span class="flaticon-edit"></span> -->
                       </div>
                       <div class="text">
-                        <h3>Free Checkup</h3>
+                        <h3>Radiation Safety</h3>
                         <p>
-                          Undertakes laborious physically exercise advantage.
+                          We use AERB certified Xray machine assuring radiation safety of our patients
                         </p>
                       </div>
                     </div>
@@ -899,12 +903,14 @@
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-item">
                       <div class="icon-holder">
-                        <span class="flaticon-book"></span>
+                       
+                        <img src="/assets/spandan-images/SpandanIcons/cross-platform-2.png" alt="">
+                        <!-- <span class="flaticon-book"></span> -->
                       </div>
                       <div class="text">
-                        <h3>Affordable Clinic</h3>
+                        <h3>Digital dentistry</h3>
                         <p>
-                          Undertakes laborious physically exercise advantage.
+                          From patient registration to dental treatment, we work digitally
                         </p>
                       </div>
                     </div>
@@ -914,12 +920,13 @@
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-item">
                       <div class="icon-holder">
-                        <span class="flaticon-tool"></span>
+                        <img src="/assets/spandan-images/SpandanIcons/waiting-room02.png" alt="">
+                        <!-- <span class="flaticon-tool"></span> -->
                       </div>
                       <div class="text">
-                        <h3>Latest Technology</h3>
+                        <h3>Zero Waiting Time</h3>
                         <p>
-                          Undertakes laborious physically exercise advantage.
+                          We have developed an appointment based practice as we value your time 
                         </p>
                       </div>
                     </div>
@@ -932,6 +939,25 @@
         </div>
       </section>
       <!--End about us area-->
+
+      <section class="about-us-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <iframe
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/rWSbm9Gfo3A?si=GGbt_erJSQmR-sJz"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!--Start fact counter area-->
       <section
         class="fact-counter-area"
@@ -1288,6 +1314,8 @@
     <div class="scroll-to-top scroll-to-target" data-target="html">
       <span class="fa fa-angle-up"></span>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <!-- main jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Wow Script -->
