@@ -4286,4 +4286,11 @@ a.header-call-btn {
         background-size: 40%;
     }
 
+    .whatsappBtn {
+        position: fixed;
+        bottom: 2.5%;
+        left: 2.5%;
+        z-index: 99999999;
+    }
+
 }
