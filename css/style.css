@@ -1261,7 +1261,7 @@ select:focus {
     margin-bottom: 0px;
     border-radius: 3px;
     display: block;
-    padding: 30px 20px 22px;
+    padding: 0px 20px 22px;
 }
 
 .about-us-area .right-content .single-item .icon-holder span:before {
