@@ -1254,14 +1254,16 @@ select:focus {
 .about-us-area .left-content .text .button .signature img{
     width: auto;
 }
-
+.row.aboutTest .single-item {
+    padding-top: 0px;
+}
 
 .about-us-area .right-content .single-item {
     border: 0px solid #ebf8ff;
     margin-bottom: 0px;
     border-radius: 3px;
     display: block;
-    padding: 0px 20px 22px;
+    padding: 30px 20px 22px;
 }
 
 .about-us-area .right-content .single-item .icon-holder span:before {
