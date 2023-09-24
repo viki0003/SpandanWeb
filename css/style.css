@@ -1255,7 +1255,7 @@ select:focus {
     width: auto;
 }
 .row.aboutTest .single-item {
-    padding-top: 0px;
+    padding-top: 0px !important;
 }
 
 .about-us-area .right-content .single-item {
@@ -4252,11 +4252,30 @@ a.header-call-btn {
 }
 /* End */
 
+.right.pull-right a.header-call-btn .icon-box
+{
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(/assets/spandan-images/SpandanIcons/call-gif.gif);
+    background-size: 100%;
+}
+
+.right.pull-right a.header-call-btn .icon-box img
+{
+display: none;
+}
+
 .whatsappBtn {
     position: fixed;
     bottom: 4.5%;
     left: 1.5%;
-    z-index: 99999999;
+    z-index: 99999;
+}
+
+.certiBrands .owl-stage-outer .owl-stage {
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width:768px) {
