@@ -4311,7 +4311,7 @@ display: none;
         position: fixed;
         bottom: 2.5%;
         left: 2.5%;
-        z-index: 99999999;
+        z-index: 99999;
     }
 
 }
