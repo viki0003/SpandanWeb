@@ -4278,6 +4278,22 @@ display: none;
     align-items: center;
 }
 
+.footer-bottom-area .footer-bottom .copyright-text p a
+{
+    position: relative;
+}
+
+.footer-bottom-area .footer-bottom .copyright-text p a::after {
+    content: "";
+    width: 25px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    top: 11px;
+    background: #252f45;
+    right: -17px;
+}
+
 @media (min-width:768px) {
     .main-header-menu {
         display: flex;
