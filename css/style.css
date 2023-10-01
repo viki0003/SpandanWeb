@@ -4330,4 +4330,13 @@ section.top-bar-area .logo img {
         z-index: 99999;
     }
 
+    .choose-area {
+        padding-bottom: 0px;
+    }
+
+    .about-page-us-area .bottom {
+        margin-top: 40px;
+        overflow: hidden;
+    }
+
 }
