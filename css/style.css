@@ -4339,4 +4339,24 @@ section.top-bar-area .logo img {
         overflow: hidden;
     }
 
+    .about-us-area {
+        background: #fff;
+        padding: 0px 0 50px;
+    }
+
+    .special-services-area {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    #service-single-area .top-content-box .img-box{
+        margin-bottom: 0px;
+    }
+
+    #service-single-area .service-sidebar,
+    #service-single-area .service-sidebar{
+        margin-top: 0px !important;
+    }
+
+
 }
